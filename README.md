@@ -1,8 +1,10 @@
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=vineetrajojha.vineetrajojha" />
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Vineet Raj
 ==================================================================================================================================
 
 Currently Studying CSE at IILM University.
 ------------------------------------------
+
 
 I've been learning code for the last 6 months, actively contributing as a core member of the Google Developer Students Club in the web development team. Currently expanding skills in Python, MySQL and JS. Excited to share and collaborate on projects that showcase my journey into the world of coding and development.
 
