@@ -14,7 +14,7 @@ I've been learning code for the last 6 months, actively contributing as a core m
 * ✉️  You can contact me at [vineetcres@gmail.com](mailto:vineetcres@gmail.com)
 * 🧠  I'm learning Javascript, Node.js, Python, MySQL
 * 🤝  I'm open to collaborating on Web Dev Projects
-* ⚡  I do coding </>
+* ⚡  I code </>
 
 <a href="https://www.github.com/vineetrajojha" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/vineetrajojha?logo=github&style=for-the-badge&color=3382ed&labelColor=000000" /></a>
