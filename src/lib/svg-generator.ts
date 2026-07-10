@@ -42,17 +42,16 @@ export async function generateSvg({ theme, stats, visitors }: GenerateSvgOptions
   const asciiLines = asciiArt.split('\n');
   const maxAsciiWidth = Math.max(...asciiLines.map(line => line.length));
   
-  const SVG_WIDTH = 1000; // Tighter width so it scales up and appears larger on GitHub
+  const SVG_WIDTH = 1450; // Increased width to prevent cutoffs
   // Dynamic height based on content
   const SVG_HEIGHT = 600; 
 
   const leftMargin = 20;
   const topMargin = 30;
-  const columnGap = 40; 
+  const columnGap = 60; // Increased gap to account for wider Braille characters
   
-  // Braille characters render much narrower than standard ASCII in monospace fonts.
-  // Using 5.5px multiplier removes the massive gap and allows the card to be tighter.
-  const rightColumnX = leftMargin + (maxAsciiWidth * 5.5) + columnGap;
+  // Use a slightly larger CHAR_WIDTH multiplier for the ASCII calculation to ensure we clear the Braille which renders wider in some fonts
+  const rightColumnX = leftMargin + (maxAsciiWidth * 10) + columnGap;
 
   let rightColumnY = topMargin;
 
